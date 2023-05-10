@@ -1,0 +1,4 @@
+<div class="container">
+    <app-category-list (categorySelected)="onCategorySelected($event)"></app-category-list>
+    <app-article-list [selectedCategory]="selectedCategory"></app-article-list>
+  </div>
