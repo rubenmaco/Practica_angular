@@ -1,0 +1,21 @@
+.articleItem {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  .articleList {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .articleItem {
+    flex: 0 0 auto;
+  }
+  .articleItem img{
+    padding: 30px;
+  }
+  .articleList-container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    //align-items: center; /* Centra verticalmente */
+  }

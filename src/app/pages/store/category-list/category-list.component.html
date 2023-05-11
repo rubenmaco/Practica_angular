@@ -1,1 +1,6 @@
-<p>category-list works!</p>
+<ul class="list-group d-flex flex-row">
+  <li *ngFor="let category of categories" class="list-group-item">
+    <a (click)="onCategoryClick(category.id)" class="nav-link">{{ category.name }}</a>
+  </li>
+</ul>
+  

@@ -1,1 +1,9 @@
-<p>article-list works!</p>
+<div class="articleList-container">
+<div class="articleList">
+<div class="articleItem" *ngFor="let article of getFilteredArticles()">
+  <img [src]="article.imageUrl" class="d-block w-100">
+  <span>{{article.title}}</span><br>
+  <span>{{article.price}} €</span>
+  </div>
+</div>
+</div>
